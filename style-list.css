@@ -1,0 +1,62 @@
+body {
+	margin:0;
+	background: rgba(0,0,0,1);
+	color: #fff;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#back {
+	text-align: center;
+}
+
+#contacts, #projects, #links {
+	margin-left: 30px;
+}
+
+.project-item {
+	width: 50%; 
+}
+
+.project-item h2 {
+	font-weight: lighter; 
+}
+
+.project-item p {
+	margin: 0px 70px 20px 10px;
+}
+
+@media screen and (max-device-width: 790px) {
+	#back {
+		font-size: 3em;
+	}
+
+	#contacts, #projects, #links {
+		font-size: 2.5em;
+	}
+
+	.project-item {
+		width: 100%; 
+	}
+
+	.project-item h2 {
+		font-size: 1em;
+	}
+
+	.project-item p {
+		font-size: 0.8em;
+	}
+
+	#links p {
+		font-size: 1em;
+	}
+
+	#links li {
+		font-size: 0.4em;
+	}
+
+}

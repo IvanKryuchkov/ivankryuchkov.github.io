@@ -39,6 +39,10 @@ a {
 		font-size: 2.5em;
 	}
 
+	#contacts p {
+		font-size: 0.7em;
+	}
+
 	.project-item {
 		width: 100%; 
 	}

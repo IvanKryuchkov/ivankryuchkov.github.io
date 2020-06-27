@@ -85,6 +85,10 @@ main #list a {
 	font-size: 1.5em;
 }
 
+main #list-device {
+	display: none;
+}
+
 footer {
 	display: flex; 
 	flex-shrink: 0; 
@@ -127,6 +131,7 @@ footer {
 
 	header .typewriter h2 {
 		display: block;
+		font-size: 2em;
 		text-align: center;
 		font-weight: 100; 
 	}
@@ -136,7 +141,7 @@ footer {
 	}
 
 	main #about-title {
-		font-size: 2.6em;
+		font-size: 2.7em;
 	}
 
 	main #about-section {
@@ -145,14 +150,21 @@ footer {
 	}
 
 	main #list {
+		display: none;
+	}
+
+	main #list-device {
+		display: flex;
 		flex-direction: column;
 		align-self: center;
 		text-align: center;
-		margin: 0;
+		margin: 0px;
 	}
 
-	main #list a {
-		font-size: 3.5em;
+	main #list-device a {
+		color: white;
+		font-size: 3em;
+		margin: 5px 0px 20px 0px;
 	}
 
 }
